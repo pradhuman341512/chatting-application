@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Instagram Login</title>
+    <style>
+        form {
+            border: 2px solid #ccc;
+            padding: 20px;
+            border-radius: 10px;
+            width: 300px;
+            margin: 0 auto;
+        }
+        
+        label,
+        input {
+            display: block;
+            margin-bottom: 10px;
+        }
+        
+        input[type="text"],
+        input[type="password"] {
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            width: 100%;
+        }
+        
+        button[type="submit"] {
+            background-color: #3897f0;
+            color: #fff;
+            padding: 10px;
+            border-radius: 5px;
+            border: none;
+            width: 100%;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="https://www.instagram.com/accounts/login/" method="POST">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password">
+        <button type="submit">Log In</button>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chating Application</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="">
+</head>
+
+<body>
+    <div class="person-selector">
+        <button class="button  person-selector-button active-person" id="kashish-selector">Kashish</button>
+        <button class="button  person-selector-button" id="pradhuman-selector">Pradhuman</button>
+
+    </div>
+    <div class="chat-container">
+        <h2 class="chat-header">Kashish chating...</h2>
+        <div class="chat-messages">
+            <div class="message blue-bg">
+                <div class="message-sender">Kashish</div>
+                <div class="message-text">Hey Pradhuman, what's up?</div>
+                <div class="message-timestamp">11:06</div>
+            </div>
+            <div class="message gray-bg">
+                <div class="message-sender">Pradhuman</div>
+                <div class="message-text">Not much, just living the dream. How about you</div>
+                <div class="message-timestamp">11:20</div>
+            </div>
+
+
+        </div>
+        <form class="chat-input-form">
+            <input type="text" class="chat-input" placeholder=" Type here Kashish...">
+            <button type="submit" class="button send-button">Send</button>
+        </form>
+        <button class="button clear-chat-button">Clear Chat</button>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
